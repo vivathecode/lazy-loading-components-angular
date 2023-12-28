@@ -1,0 +1,9 @@
+<div class="news-widget">
+  @for (item of newsItems; track item) {
+    <div class="news-item">
+      <h3>{{ item.title }}</h3>
+      <img [src]="item.imageUrl" alt="News Image" class="news-image" />
+      <p>{{ item.description }}</p>
+    </div>
+  }
+</div>

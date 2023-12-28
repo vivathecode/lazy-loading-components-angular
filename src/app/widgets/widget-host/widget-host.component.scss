@@ -1,0 +1,35 @@
+.available-widgets {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.available-widget {
+  padding: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.available-widget.active {
+  background-color: rgb(8, 132, 132, 0.2);
+}
+
+.widget {
+  position: relative;
+}
+
+.widgets-wrapper {
+  text-align: center;
+}
+
+.remove-icon {
+  position: absolute;
+  right: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
